@@ -3,8 +3,8 @@ import requests
 import smtplib
 import flask
 
-MY_EMAIL = "venedygait@gmail.com"
-MY_PASSWORD = "mqok lpka kzsm qkze"
+MY_EMAIL = ""
+MY_PASSWORD = ""
 # USE YOUR OWN npoint LINK! ADD AN IMAGE URL FOR YOUR POST. 👇              
 posts_2 = requests.get("https://api.npoint.io/c790b4d5cab58020d391").json()
 
